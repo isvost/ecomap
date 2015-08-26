@@ -418,7 +418,7 @@ h1 {
   font-size: 18px;
   margin: 0 0 50px;
   background-color: #71bc22;
-	padding: 10px 14px;
+  padding: 10px 14px;
   line-height: 27px;
   font-family: "Segoe UI", "Segoe WP", "Helvetica Neue", "Lucida Grande", sans-serif;
   font-weight: 300;
@@ -458,14 +458,14 @@ h1 {
 }
 
 .mac-download::before {
-	content: "";
-	width: 23px;
-	height: 24px;
-	display: inline-block;
-	background-image: url(../images/download-arrow@2x.png);
-	background-size: 23px 24px;
-	margin-right: 11px;
-	margin-bottom: -7px;
+  content: "";
+  width: 23px;
+  height: 24px;
+  display: inline-block;
+  background-image: url(../images/download-arrow@2x.png);
+  background-size: 23px 24px;
+  margin-right: 11px;
+  margin-bottom: -7px;
 }
 
 .mac-download:hover:before {
@@ -473,10 +473,10 @@ h1 {
 }
 
 .mac-download:hover {
-	color: #fff;
-	background-image: -moz-linear-gradient(#56bdf9 0%, #358af0 100%);
-	background-image: -webkit-linear-gradient(#56bdf9 0%, #358af0 100%);
-	border-radius:4px;
+  color: #fff;
+  background-image: -moz-linear-gradient(#56bdf9 0%, #358af0 100%);
+  background-image: -webkit-linear-gradient(#56bdf9 0%, #358af0 100%);
+  border-radius:4px;
 }
 
 .tutorial-list > li:last-child:before {
@@ -756,3 +756,14 @@ footer .right {
 }
 .versions table tr th { font-weight: bold; text-align: left; }
 .versions table tr td { padding: 5px 20px 5px 0;  }
+
+
+.banimg li {
+  position: absolute;
+  left:45%;
+  top:0;
+}
+
+.banimg li:first-child {
+  margin-left: 10;
+}
