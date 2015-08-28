@@ -152,7 +152,7 @@ textarea {
 
 .logo {
   display: block;
-  width: 169px;
+  width: 200px;
   margin: 0 auto;
 }
 
@@ -648,8 +648,12 @@ h1 {
 }
 
 .next-steps li:first-child, .next-steps li:last-child {
-  padding-left: 0;
+  padding-left: 30px;
   padding-right: 0;
+}
+.stepsl
+{
+ padding-left: 150px; 
 }
 
 .next-steps .custom-urls {
@@ -766,4 +770,15 @@ footer .right {
 
 .banimg li:first-child {
   margin-left: 10;
+}
+.mac-download a
+{
+  color:#fff;
+} 
+
+.linkhelp
+{
+  padding-left: 50px;
+  padding-right: 50px;
+    font-size: 40px;
 }
