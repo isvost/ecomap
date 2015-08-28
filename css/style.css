@@ -648,12 +648,12 @@ h1 {
 }
 
 .next-steps li:first-child, .next-steps li:last-child {
-  padding-left: 30px;
+  padding-left: 10px;
   padding-right: 0;
 }
 .stepsl
 {
- padding-left: 150px; 
+ padding-left: 200px; 
 }
 
 .next-steps .custom-urls {
